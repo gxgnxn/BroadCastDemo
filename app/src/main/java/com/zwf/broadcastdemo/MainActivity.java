@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 
     private Button broadCastBtn;
     private Button orderCastBtn;
-
+    private int age1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
