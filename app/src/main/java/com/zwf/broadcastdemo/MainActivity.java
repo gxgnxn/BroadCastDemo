@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//            撒大声地
         //动态注册消息接听
         intentFilter = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
         netWorkBroadCastReceiver = new NetWorkBroadCastReceiver();
